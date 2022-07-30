@@ -94,4 +94,5 @@ def brithAttack():#随机生成两个长度为128x4bit的数据进行生日攻�
             
 结果为：
 
-![image](https://user-images.githubusercontent.com/104775629/181994483-f385a474-2506-43c6-b7df-050ebf070b15.png)
+
+![image](https://user-images.githubusercontent.com/104775629/181994539-e27db08f-3675-4782-ad6a-5a28d68570a9.png)
