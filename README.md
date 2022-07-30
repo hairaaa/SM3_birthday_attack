@@ -4,6 +4,7 @@ SM3简易生日攻击：
 简化操作，随机生成256个128位16进制数串（512bit），在这个集合里随机找两个串进行碰撞，比对其杂凑值的前8bit。
 
 #生成长度为length的十六进制串
+
 def random_hex(length):
 
     result =hex(random.randint(0,16**length)).replace('0x','').upper()
@@ -16,6 +17,7 @@ def random_hex(length):
     
     
 #随机生成n个串放在一个列表里  
+
 def getRandomList(n):
 
     numbers = []
@@ -32,6 +34,7 @@ def getRandomList(n):
     
     
 #随机生成两个长度为128x4bit的数据进行生日攻击使得两串数据在进行了sm3之后杂凑值相同
+
 def brithAttack():
 
     #在此只进行简单的操作，比对杂凑值的前8bit
